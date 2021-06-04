@@ -1,0 +1,39 @@
+.navbar-toggler-icon{
+    color: black;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: white;
+}
+.headerBtn1{
+    padding: 6px 20px;
+    color: white;
+    border: 1px solid #0707F8;
+    border-radius: 30px;
+    background-color: #1a1a1a;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.headerBtn1 span{
+   padding: 0px 20px;
+}
+.headerBtn1:hover{
+    background-color: #0707F8;
+}
+  
+
+
+
+
+.headerBtn2{
+    padding: 9px 29px;
+    border: 1px solid #27AAE1;
+    background-color: #27AAE1;
+    border-radius: 30px;
+    font-weight: 500;
+    color: white;
+}
+.nav{
+    padding: 10px;
+}
