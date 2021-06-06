@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from '../../images/logo.png';
-
 import './Footer.css'
+import fb from '../../images/fb.png';
+import twitter from '../../images/twitter.png';
+import insta from '../../images/insta.png';
+import discord from '../../images/discord.png';
 
 const Footer = () => {
     return (
@@ -15,7 +18,12 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <h3>Socials</h3>
-                        <div></div>
+                        <div className='d-flex'>
+                            <img src={fb} alt="" className='icons'/>
+                            <img src={insta} alt="" className = 'icons ml-3' />
+                            <img src={twitter} alt="" className = 'icons ml-3' />
+                            <img src={discord} alt="" className = 'icons ml-3' />
+                        </div>
                     </div>
                     <div className="col-md-3">
                         <h3>Quick Links</h3>
