@@ -20,8 +20,7 @@
 
 .box {
     margin: 30px 47px;
-    padding: 30px 10px;
-    border-radius: 50px;
-background: #328580;
-box-shadow: 8px -2px 37px #2b716d, -11px -10px 19px #3a9993
+    padding: 20px 5px;
+    border-radius: 30px;
+    background: #292929;
 }

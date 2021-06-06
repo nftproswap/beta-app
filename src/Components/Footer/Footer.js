@@ -10,7 +10,6 @@ const Footer = () => {
     return (
         <div className="footer font text-white">
             <div className="container">
-                <div className="row">
                    <div className="footer-content d-flex">
                    <div className="col-md-6">
                         <img src={logo} alt=""className='w-50  mb-3' />
@@ -34,7 +33,6 @@ const Footer = () => {
                         </ul>
                     </div>
                    </div>
-                </div>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import logo from '../../images/logo.png';
 const Navbar = () => {
 
     return (
-       <div className="shadow-lg nav fixed">
+       <div className="shadow-lg fixed-top nav">
          <div className="container">
              <div className="row">
                  <div className="col-md-4">
@@ -15,7 +15,7 @@ const Navbar = () => {
                  </div>
                  <div className="col-md-4"></div>
                  <div className="col-md-4">
-                     <button className='headerBtn1'>
+                     <button className='headerBtn1 mb-md-0 mb-2 mt-md-0 mt-4 '>
                          <span>Locked Liq</span>
                      </button>
                      <button className='headerBtn2'>

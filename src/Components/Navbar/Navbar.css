@@ -21,11 +21,6 @@
 .headerBtn1:hover{
     background-color: #0707F8;
 }
-  
-
-
-
-
 .headerBtn2{
     padding: 9px 29px;
     border: 1px solid #27AAE1;
@@ -36,4 +31,5 @@
 }
 .nav{
     padding: 10px;
+    background-color: #292929;
 }
